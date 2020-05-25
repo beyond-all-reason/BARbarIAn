@@ -11,7 +11,7 @@
 		"static": 1.5,  // initial modifier for power of attack group based on static enemy threat
 		"comm": 0.01
 	},
-	"aa_threat": 80.0,  // anti-air threat threshold, air factories will stop production when AA threat exceeds
+	"aa_threat": 100.0,  // anti-air threat threshold, air factories will stop production when AA threat exceeds
 	"slack_mod": {
 		"all": 0.5,  // threat map 64-elmos slack multiplier for all units
 		"static": 1.0,  // additional 64-elmo-cells for static units
@@ -41,9 +41,18 @@
 		"role": ["builder"],
 		"attribute": ["commander"]
 	},
+	
 	// ARM defenses
+	"armllt": {
+		"role": ["static"]
+	},
+	"corllt": {
+		"role": ["static"]
+	},	
+	
 	"armrl": {
-		"role": ["anti_air"]
+		"role": ["anti_air", "static"],
+		"attribute": ["anti_air"]
 	},
 	"armcir": {
 		"role": ["anti_air"]

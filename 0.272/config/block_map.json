@@ -120,8 +120,8 @@
 		"solar": ["armsolar", "corsolar"],
 		"wind": ["armwin", "corwin"],
 		"store": ["armmstor", "armestor", "cormstor", "corestor"],
-		"mex": ["armmex", "armmoho", "cormex", "cormoho"],
-		"def_low": ["armllt", "corllt"],
+		"mex": ["armmex", "cormex"],
+		"def_low": ["armllt", "armclaw", "corllt", "cormaw"],
 		"caretaker": ["armnanotc", "armasp", "cornanotc", "corasp"],
 		"small": ["armrad", "corrad"]
 	}
