@@ -41,6 +41,36 @@
 		"role": ["builder"],
 		"attribute": ["commander"]
 	},
+	// ARM defenses
+	"armrl": {
+		"role": ["anti_air"]
+	},
+	"armcir": {
+		"role": ["anti_air"]
+	},
+	"armpacko": {
+		"role": ["anti_air"]
+	},
+	"armflak": {
+		"role": ["anti_air"],
+		"attribute": ["heavy"]
+	},
+
+	// CORE defenses
+	"corrl": {
+		"role": ["anti_air"]
+	},
+	"cormadsam": {
+		"role": ["anti_air"]
+	},
+	"corerad": {
+		"role": ["anti_air"]
+	},
+	"corflak": {
+		"role": ["anti_air"],
+		"attribute": ["heavy"]
+	},
+
 	// kbot - armlab
 	"armck": {
 		// "role": [<main>, <enemy>, <enemy>, ...]
