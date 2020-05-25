@@ -226,7 +226,8 @@
 		"role": ["assault"]
 	},
 	"armmanni": {
-		"role": ["heavy"]
+		"role": ["anti-heavy"],
+		"attribute": ["artillery"]
 	},
 	"armmart": {
 		"role": ["artillery"]
