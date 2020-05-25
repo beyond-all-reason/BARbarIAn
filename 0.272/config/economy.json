@@ -35,9 +35,10 @@
 					"armwin": [20, 200]
 				},
 				"water": {
-					"armadvsol": [1],
-					"armsolar": [4],
-					"armwin": [20]
+					"armuwfus": [6, 12],
+					"armtide": [20, 30],
+					"armsolar": [16, 20],
+					"armwin": [20, 200]
 				}
 			},
 			"core": {
@@ -50,9 +51,10 @@
 					"corwin": [20, 200]
 				},
 				"water": {
-					"coradvsol": [1],
-					"corsolar": [4],
-					"corwin": [20]
+					"cortide": [16, 20],
+					"coruwfus": [6, 12],
+					"corsolar": [16, 20],
+					"corwin": [20, 200]
 				}
 			}
 		},

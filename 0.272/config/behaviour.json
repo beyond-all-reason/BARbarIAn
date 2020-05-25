@@ -226,7 +226,7 @@
 		"role": ["assault"]
 	},
 	"armmanni": {
-		"role": ["anti-heavy"],
+		"role": ["anti_heavy"],
 		"attribute": ["artillery"]
 	},
 	"armmart": {
@@ -301,6 +301,65 @@
 		"role": ["bomber", "air"],
 		"attribute": ["heavy"],
 		"retreat": 0.5
+	},
+
+	// ships - armsy
+	"armcs": {
+		"role": ["builder", "air"],
+		"retreat": 0.6
+	},
+	"armpt": {
+		"role": ["scout", "anti_air", "raider"]
+	},
+	"armdecade": {
+		"role": ["scout", "raider", "skirmish"]
+	},
+	"armpship": {
+		"role": ["assault", "skirmish"]
+	},
+	"armsub": {
+		"role": ["sub"],
+		"attribute": ["anti_sub"]
+	},
+	"armroy": {
+		"role": ["artillery", "assault"],
+		"attribute": ["siege"],
+		"retreat": 0.5
+	},
+
+	// adv shipyard - armasy
+	"armacsub": {
+		"role": ["builder", "sub"],
+		"retreat": 0.3
+	},
+	"armsubk": {
+		"role": ["sub"],
+		"attribute": ["anti_sub"]
+	},
+	"armaas": {
+		"role": ["anti_air"]
+	},
+	"armcrus": {
+		"role": ["assault", "skirmish"],
+		"attribute": ["anti_sub"]
+	},
+	"armcarry": {
+		"role": ["support", "heavy"],
+		"retreat": 0.75
+	},
+	"armmship": {
+		"role": ["artillery"],
+		"attribute": ["siege"],
+		"retreat": 0.5
+	},
+	"armbats": {
+		"role": ["heavy"],
+		"attribute": ["assault"],
+	},
+	"armepoch": {
+		"role": ["heavy"],
+		"attribute": ["artillery"],
+		"retreat": 0.3
 	},
 
 	// kbot - corlab
