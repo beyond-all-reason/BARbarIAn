@@ -29,38 +29,38 @@
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
-					"armfus": [1, 5],
-					"armadvsol": [8, 16],
-					"armsolar": [16, 20],
-					"armwin": [20, 200]
+					"armfus": [5],
+					"armadvsol": [16],
+					"armsolar": [20]
+					//"armwin": [20, 200]
 				},
 				"water": {
-					"armuwfus": [6, 12],
-					"armtide": [20, 30],
-					"armsolar": [16, 20],
-					"armwin": [20, 200]
+					"armuwfus": [6],
+					"armtide": [30],
+					"armsolar": [20]
+					//"armwin": [20, 200]
 				}
 			},
 			"core": {
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
-					"corfus": [1, 5],
-					"coradvsol": [8, 16],
-					"corsolar": [16, 20],
-					"corwin": [20, 200]
+					"corfus": [5],
+					"coradvsol": [16],
+					"corsolar": [20]
+					//"corwin": [20, 200]
 				},
 				"water": {
-					"cortide": [16, 20],
-					"coruwfus": [6, 12],
-					"corsolar": [16, 20],
-					"corwin": [20, 200]
+					"coruwfus": [6],
+					"cortide": [30],
+					"corsolar": [20]
+					//"corwin": [20, 200]
 				}
 			}
 		},
 		// income factor for energy, time is in seconds
 		// [[<start_factor>, <start_time>], [<end_factor>, <end_time>]]
-		"factor": [[0.25, 1], [20.0, 3000]],
+		"factor": [[25.0, 1], [30.0, 4000]],
 		// need to know how to make AI build more energy in start-game
 
 		"pylon": []

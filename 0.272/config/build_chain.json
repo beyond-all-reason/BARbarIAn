@@ -1,12 +1,18 @@
 // Mono-space font required
 {
 "porcupine": {
-	//            0         1        2        3            4         5          6            7           8          9         10         11          12
 	"unit": {
-		"arm":  ["armllt", "armtl", "armrl", "armbeamer", "armhlt", "armclaw", "armcir",    "armpacko", "armpb",   "armatl", "armflak", "armamb",   "armanni"],
-		"core": ["corllt", "cortl", "corrl", "corhllt",   "corhlt", "cormaw",  "cormadsam", "corerad",  "corvipe", "coratl", "corflak", "cortoast", "cordoom"]
+	//            0           1          2         3            4           5          6 
+		"arm":  ["armllt",   "armtl",   "armrl",  "armbeamer", "armhlt",   "armclaw", "armcir",
+	//            7           8          9         10           11          12         
+			     "armpacko", "armpb",   "armatl", "armflak",   "armamb",   "armanni"],
+	//	
+	//            0           1          2         3            4           5          6 
+		"core": ["corllt",   "cortl",   "corrl",  "corhllt",   "corhlt",   "cormaw",  "cormadsam",
+	//            7           8          9         10           11          12        			
+				 "corerad",  "corvipe", "coratl", "corflak",   "cortoast", "cordoom"]
 	},
-	// Actual number of defences per cluster bounded by income
+	// Actual number of defences per cluster bounded by income - the order of defenses that should be build with numbers as above.
 	"land":  [0, 0, 2, 3, 2, 3, 5, 6, 5, 4, 4, 7, 3, 4, 8, 10, 8, 11, 10, 12],
 	"water": [1, 2, 1, 1, 2, 1, 4, 9, 10, 9, 10],
 	"prevent": 2,  // number of preventive defences
@@ -18,7 +24,7 @@
 	},
 
 	// Base defence and time to build it, in seconds
-	"base": [[0, 30], [0, 180], [3, 360], [2, 480], [0, 660], [4, 760], [5, 860], [8, 960], [10, 1200], [11, 1400], [12, 1800]],
+	"base": [[0, 75], [0, 280], [3, 420], [2, 520], [0, 680], [4, 760], [5, 860], [8, 960], [10, 1200], [11, 1400], [12, 1800]],
 
 	"superweapon": {
 		"unit": {

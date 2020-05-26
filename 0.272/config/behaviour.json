@@ -5,7 +5,7 @@
 	"raid": [3.0, 9.0],  // [<min>, <avg>] power of raider squad
 	"attack": 60.0,  // min power of attack group
 	"thr_mod": {
-		"attack": [0.4, 0.5],  // [<min>, <max>] enemy threat modifier for target selection of attack task
+		"attack": [0.2, 0.3],  // [<min>, <max>] enemy threat modifier for target selection of attack task
 		"defence": [0.95, 0.95],  // [<min>, <max>] enemy threat modifier for group size calculation of defence task
 		"mobile": 1.1,  // initial modifier for power of attack group based on mobile enemy threat
 		"static": 1.5,  // initial modifier for power of attack group based on static enemy threat
@@ -140,7 +140,7 @@
 		// riot: regular attacker, but according to response.json it is built when enemy has many raiders (in plans to make riot just con's defender).
 		// assault: regular attacker, according to response.json it is built when enemy has many statics.
 		// skirmish: regular attacker, according to response.json it is built when enemy has many riots or assaults.
-		"role": ["builder"]
+		"role": ["builder"],
 
 		// Attributes - optinal states
 		// "melee" - always move close to target, disregard attack range
@@ -163,7 +163,7 @@
 //		"reload": 1.0,
 
 		// Limits number of units
-//		"limit": 10,
+		"limit": 10
 
 		// Unit can be built only since specific time in seconds
 //		"since": 60,
@@ -192,7 +192,8 @@
 		"role": ["assault"]
 	},
 	"armjeth": {
-		"role": ["anti_air"]
+		"role": ["anti_air"],
+		"limit": 30
 	},
 	"armwar": {
 		"role": ["riot"],
@@ -204,7 +205,8 @@
 
 	// adv kbot - armalab
 	"armack": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"armfark": {
 		"role": ["support", "mine"]
@@ -270,10 +272,12 @@
 
 	// vehicles - armvp
 	"armcv": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"armbeaver": {
-		"role": ["support", "mine"]
+		"role": ["support", "mine"],
+		"limit": 10
 	},
 	"armmlv": {
 		"role": ["support", "mine"]
@@ -286,7 +290,8 @@
 		"attribute": ["scout"]
 	},
 	"armpincer": {
-		"role": ["assault"]
+		"role": ["assault"],
+		"limit": 30
 	},
 	"armstump": {
 		"role": ["assault"]
@@ -305,7 +310,8 @@
 
 	// adv vehicles - armavp
 	"armacv": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"armlatnk": {
 		"role": ["raider"]
@@ -330,19 +336,11 @@
 		"role": ["support"]
 	},
 
-	"armalab": {
-		"role": ["static"],
-		"attribute": ["support"]
-	},
-	"armavp": {
-		"role": ["static"],
-		"attribute": ["support"]
-	},
-
 	// aircraft - armap
 	"armca": {
 		"role": ["builder", "air"],
-		"retreat": 0.6
+		"retreat": 0.6,
+		"limit": 10
 	},
 	"armpeep": {
 		"role": ["scout", "air"]
@@ -394,7 +392,8 @@
 	// ships - armsy
 	"armcs": {
 		"role": ["builder", "air"],
-		"retreat": 0.6
+		"retreat": 0.6,
+		"limit": 6
 	},
 	"armpt": {
 		"role": ["scout", "anti_air", "raider"]
@@ -418,7 +417,8 @@
 	// adv shipyard - armasy
 	"armacsub": {
 		"role": ["builder", "sub"],
-		"retreat": 0.3
+		"retreat": 0.3,
+		"limit": 4
 	},
 	"armsubk": {
 		"role": ["sub"],
@@ -452,7 +452,8 @@
 
 	// kbot - corlab
 	"corck": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"corak": {
 		"role": ["raider"],
@@ -470,12 +471,14 @@
 		"role": ["assault"]
 	},
 	"corcrash": {
-		"role": ["anti_air"]
+		"role": ["anti_air"],
+		"limit": 30
 	},
 
 	// adv kbot - coralab
 	"corack": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"corfast": {
 		"role": ["support", "mine"]
@@ -537,10 +540,12 @@
 
 	// vehicles - corvp
 	"corcv": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"cormuskrat": {
-		"role": ["support", "mine"]
+		"role": ["support", "mine"],
+		"limit": 10
 	},
 	"cormlv": {
 		"role": ["support", "mine"]
@@ -553,7 +558,8 @@
 		"attribute": ["scout"]
 	},
 	"corgarp": {
-		"role": ["assault"]
+		"role": ["assault"],
+		"limit": 30
 	},
 	"corraid": {
 		"role": ["assault"]
@@ -571,7 +577,8 @@
 
 	// adv vehicles - coravp
 	"coracv": {
-		"role": ["builder"]
+		"role": ["builder"],
+		"limit": 10
 	},
 	"correap": {
 		"role": ["assault"]
@@ -601,7 +608,8 @@
 	// ships - corsy
 	"corcs": {
 		"role": ["builder", "air"],
-		"retreat": 0.6
+		"retreat": 0.6,
+		"limit": 6
 	},
 	"corpt": {
 		"role": ["scout", "anti_air", "raider"]
@@ -625,7 +633,8 @@
 	// adv shipyard - corasy
 	"coracsub": {
 		"role": ["builder", "sub"],
-		"retreat": 0.3
+		"retreat": 0.3,
+		"limit": 4
 	},
 	"corshark": {
 		"role": ["sub"],
@@ -660,7 +669,8 @@
 	// aircraft - corap
 	"corca": {
 		"role": ["builder", "air"],
-		"retreat": 0.6
+		"retreat": 0.6,
+		"limit": 10
 	},
 	"corfink": {
 		"role": ["scout", "air"]
@@ -680,7 +690,8 @@
 	// adv aircraft - coraap
 	"coraca": {
 		"role": ["builder", "air"],
-		"retreat": 0.6
+		"retreat": 0.6,
+		"limit": 10
 	},
 	"corawac": {
 		"role": ["scout", "air"]
