@@ -111,6 +111,14 @@
         "role": ["static"],
         "attribute": ["support"]
     },
+    "armaap": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+    "coraap": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
     "armshltx": {
         "role": ["static"],
         "attribute": ["support"]
