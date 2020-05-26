@@ -29,8 +29,8 @@
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
-					"armfus": [6, 12],
-					"armadvsol": [6, 30],
+					"armfus": [1, 5],
+					"armadvsol": [8, 16],
 					"armsolar": [16, 20],
 					"armwin": [20, 200]
 				},
@@ -45,8 +45,8 @@
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
-					"corfus": [6, 12],
-					"coradvsol": [6, 30],
+					"corfus": [1, 5],
+					"coradvsol": [8, 16],
 					"corsolar": [16, 20],
 					"corwin": [20, 200]
 				},
