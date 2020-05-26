@@ -46,12 +46,8 @@
 	"armllt": {
 		"role": ["static"]
 	},
-	"corllt": {
-		"role": ["static"]
-	},	
-
 	"armrl": {
-		"role": ["anti_air", "static"],
+		"role": ["anti_air"],
 		"attribute": ["anti_air"]
 	},
 	"armcir": {
@@ -64,8 +60,18 @@
 		"role": ["anti_air"],
 		"attribute": ["heavy"]
 	},
+	"armtl": {
+		"role": ["static"]
+	},
+	"armatl": {
+		"role": ["static"],
+		"attribute": ["heavy"]
+	},
 
 	// CORE defenses
+	"corllt": {
+		"role": ["static"]
+	},		
 	"corrl": {
 		"role": ["anti_air"]
 	},
@@ -77,6 +83,13 @@
 	},
 	"corflak": {
 		"role": ["anti_air"],
+		"attribute": ["heavy"]
+	},
+	"cortl": {
+		"role": ["static"]
+	},
+	"coratl": {
+		"role": ["static"],
 		"attribute": ["heavy"]
 	},
 
