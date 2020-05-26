@@ -11,7 +11,7 @@
 	"water": [1, 2, 1, 1, 2, 1, 4, 9, 10, 9, 10],
 	"prevent": 2,  // number of preventive defences
 	"amount": {  // income bound factor
-		"offset": [-0.15, 0.15],
+		"offset": [-0.15, 0.075],
 		// Amount factor: 10x10 ~ 1.7, 20x20 ~ 1.5
 		"factor": [3.8, 3.4],
 		"map": [10, 20]
@@ -27,7 +27,7 @@
 		},
 		"weight":   [ 0.20,          0.09,      0.40,       0.01,      0.07,     0.13,       0.3],
 
-		"condition": [40, 3500]  // [<Minimum income>, <maximum seconds to build>]
+		"condition": [30, 3500]  // [<Minimum income>, <maximum seconds to build>]
 	},
 
 	// Fallback defence

@@ -22,7 +22,7 @@
 // If unit's health drops below specified percent it will retreat
 "retreat": {
 	"builder": 0.85,  // default value for all builders
-	"fighter": 0.45,  // default value for all not-builder units
+	"fighter": 0.40,  // default value for all not-builder units
 	"shield": [0.25, 0.275]  // [<empty>, <full>] shield power
 },
 
@@ -92,6 +92,34 @@
 		"role": ["static"],
 		"attribute": ["heavy"]
 	},
+
+	// Factories - that should stay near main base
+
+ 	"armalab": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+    "coralab": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+    "armavp": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+    "coravp": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+    "armshltx": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+    "corgant": {
+        "role": ["static"],
+        "attribute": ["support"]
+    },
+
 
 	// kbot - armlab
 	"armck": {

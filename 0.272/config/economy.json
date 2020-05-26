@@ -89,7 +89,7 @@
 	"build_delay": -1.0,
 
 	// New factory switch interval, in seconds
-	"switch": 450,
+	"switch": 900, //made this 900 so it 'can' go T2 in about 15 minutes
 
 	//"terra": "armsy",
 	"airpad": {
