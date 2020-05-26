@@ -89,7 +89,7 @@
 	"build_delay": -1.0,
 
 	// New factory switch interval, in seconds
-	"switch": 600,
+	"switch": 900,
 
 	//"terra": "armsy",
 	"airpad": {
