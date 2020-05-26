@@ -29,9 +29,9 @@
 			// Commander hides if ("time" elapsed) and ("threat" exceeds value or enemy has "air")
 			"hide": {
 				"time": 240,  // seconds
-				"threat": 10,
+				"threat": 5,
 				"air": true,
-				"task_rad": 950.0
+				"task_rad": 750.0
 			}
 		},
 		"corcom": {
@@ -59,9 +59,9 @@
 			// Commander hides if ("time" elapsed) and ("threat" exceeds value or enemy has "air")
 			"hide": {
 				"time": 240,  // seconds
-				"threat": 10,
+				"threat": 5,
 				"air": true,
-				"task_rad": 950.0
+				"task_rad": 750.0
 			}
 		}
 	}

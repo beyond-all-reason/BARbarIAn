@@ -29,15 +29,16 @@
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
-					"armfus": [5],
-					"armadvsol": [16],
-					"armsolar": [20]
+					"armsolar": [20],
+					"armadvsol": [12],
+					"armfus": [5]
+
 					//"armwin": [20, 200]
 				},
 				"water": {
-					"armuwfus": [6],
 					"armtide": [30],
-					"armsolar": [20]
+					"armsolar": [20],
+					"armuwfus": [6]
 					//"armwin": [20, 200]
 				}
 			},
@@ -45,15 +46,15 @@
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
-					"corfus": [5],
-					"coradvsol": [16],
-					"corsolar": [20]
+					"corsolar": [20],
+					"coradvsol": [12],
+					"corfus": [5]
 					//"corwin": [20, 200]
 				},
 				"water": {
-					"coruwfus": [6],
 					"cortide": [30],
-					"corsolar": [20]
+					"corsolar": [20],
+					"coruwfus": [6]
 					//"corwin": [20, 200]
 				}
 			}
