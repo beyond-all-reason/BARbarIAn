@@ -371,6 +371,48 @@
 		},
 
 		"caretaker": 4
-		}
+		},
+		// CORE Ships
+	"corsy": {
+		"importance": [5.5, 5.5],
+
+		"require_energy": false,
+
+		"income_tier": [20],
+
+		"unit":      ["corcs", "corpt", "coresupp", "corpship", "corsub", "corroy"],
+
+		"land": {
+			"tier0": [ 0.01,    0.30,    0.25,        0.15,       0.20,     0.10],
+			"tier1": [ 0.00,    0.10,    0.15,        0.25,       0.25,     0.25]
+		},
+		"air": {
+			"tier0": [ 0.01,    0.70,    0.15,        0.05,       0.10,     0.00],
+			"tier1": [ 0.00,    0.70,    0.10,        0.05,       0.15,     0.10]
+		},
+
+		"caretaker": 1
+	},
+	
+	"corasy": {
+		"importance": [0.0, 0.6],
+
+		"require_energy": true,
+
+		"income_tier": [70],
+
+		"unit":      ["coracsub", "corshark", "corarch", "corcrus", "corcarry", "cormship", "corbats", "corblackhy"],
+
+		"land": {
+			"tier0": [ 0.01,     0.20,       0.00,      0.30,       0.00,      0.10,      0.10,      0.00],
+			"tier1": [ 0.00,     0.15,       0.05,      0.10,       0.05,      0.20,      0.25,      0.10]
+		},
+		"air": {
+			"tier0": [ 0.01,     0.15,       0.60,      0.00,       0.00,      0.20,      0.05,      0.00],
+			"tier1": [ 0.00,     0.10,       0.50,      0.05,       0.02,      0.20,      0.03,      0.01]
+		},
+
+		"caretaker": 1
+	},
 	}
 }
