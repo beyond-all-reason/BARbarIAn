@@ -49,7 +49,7 @@
 	"corllt": {
 		"role": ["static"]
 	},	
-	
+
 	"armrl": {
 		"role": ["anti_air", "static"],
 		"attribute": ["anti_air"]
@@ -547,6 +547,65 @@
 	},
 	"corvrad": {
 		"role": ["support"]
+	},
+
+	// ships - corsy
+	"corcs": {
+		"role": ["builder", "air"],
+		"retreat": 0.6
+	},
+	"corpt": {
+		"role": ["scout", "anti_air", "raider"]
+	},
+	"coresupp": {
+		"role": ["scout", "raider", "skirmish"]
+	},
+	"corpship": {
+		"role": ["assault", "skirmish"]
+	},
+	"corsub": {
+		"role": ["sub"],
+		"attribute": ["anti_sub"]
+	},
+	"corroy": {
+		"role": ["artillery", "assault"],
+		"attribute": ["siege"],
+		"retreat": 0.5
+	},
+
+	// adv shipyard - corasy
+	"coracsub": {
+		"role": ["builder", "sub"],
+		"retreat": 0.3
+	},
+	"corshark": {
+		"role": ["sub"],
+		"attribute": ["anti_sub"]
+	},
+	"corarch": {
+		"role": ["anti_air"]
+	},
+	"corcrus": {
+		"role": ["assault", "skirmish"],
+		"attribute": ["anti_sub"]
+	},
+	"corcarry": {
+		"role": ["support", "heavy"],
+		"retreat": 0.75
+	},
+	"cormship": {
+		"role": ["artillery"],
+		"attribute": ["siege"],
+		"retreat": 0.5
+	},
+	"corbats": {
+		"role": ["heavy"],
+		"attribute": ["assault"],
+	},
+	"corblackhy": {
+		"role": ["heavy"],
+		"attribute": ["artillery"],
+		"retreat": 0.3
 	},
 
 	// aircraft - corap

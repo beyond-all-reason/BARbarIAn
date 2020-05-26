@@ -7,11 +7,14 @@
 		"core": ["corllt", "cortl", "corrl", "corhllt",   "corhlt", "cormaw",  "cormadsam", "corerad",  "corvipe", "coratl", "corflak", "cortoast", "cordoom"]
 	},
 	// Actual number of defences per cluster bounded by income
-	"land":  [0, 0, 2, 3, 2, 3, 5, 6, 5, 4, 4, 7, 3, 4, 8, 10, 8, 11, 10, 12],
-	"water": [1, 4, 2, 1, 2, 1, 4, 9, 10, 9, 10],
+	"land":  [0, 1, 2],
+	"water": [1, 2, 4],
+	// Actual number of defences per cluster bounded by income (old)
+	// "land":  [0, 0, 2, 3, 2, 3, 5, 6, 5, 4, 4, 7, 3, 4, 8, 10, 8, 11, 10, 12],
+	// "water": [1, 4, 2, 1, 2, 1, 4, 9, 10, 9, 10],
 	"prevent": 2,  // number of preventive defences
 	"amount": {  // income bound factor
-		"offset": [0.010, 0.075],
+		"offset": [0.025, 0.075],
 		// Amount factor: 10x10 ~ 1.7, 20x20 ~ 1.5
 		"factor": [3.8, 3.4],
 		"map": [10, 20]
@@ -118,19 +121,10 @@
 			"energy": [20, true],
 			"porc": true
 		},
-		"armmoho": {
-//			"terra": true,
-			"energy": [40, true],
-			"porc": true
-		},
 		"cormex": {
 			"energy": [20, true],
 			"porc": true
 		},
-		"cormoho": {
-			"energy": [40, true],
-			"porc": true
-		}
 	}
 }
 }
