@@ -250,7 +250,7 @@
 		"attribute": ["scout"]
 	},
 	"armpincer": {
-		"role": ["support", "mine"]
+		"role": ["assault"]
 	},
 	"armstump": {
 		"role": ["assault"]
