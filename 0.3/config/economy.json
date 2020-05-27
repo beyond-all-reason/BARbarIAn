@@ -86,8 +86,8 @@
 	"build_delay": -1.0,
 
 	// New factory switch interval, in seconds (this is a one-time trigger, after this it's based on eco + caretakers)
-	"switch": 900, //made this 900 so it 'can' go T2 in about 15 minutes
-
+	"switch": 450,
+	
 	//"terra": "armsy",
 	"airpad": {
 		"arm": "armasp",
