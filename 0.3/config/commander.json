@@ -31,7 +31,7 @@
 				"time": 240,  // seconds
 				"threat": 5,
 				"air": true,
-				"task_rad": 750.0
+				"task_rad": 500.0
 			}
 		},
 		"corcom": {
@@ -61,7 +61,7 @@
 				"time": 240,  // seconds
 				"threat": 5,
 				"air": true,
-				"task_rad": 750.0
+				"task_rad": 500.0
 			}
 		}
 	}
