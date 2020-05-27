@@ -37,7 +37,7 @@ local options = {
 		desc    = 'Merge spatially close Circuit ally commanders',
 		type    = 'bool',
 		section = 'performance',
-		def     = true,
+		def     = false,
 	},
 -- 	{ -- number (int->uint)
 -- 		key     = 'random_seed',
