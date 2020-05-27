@@ -379,7 +379,8 @@
 	},
 	"armsam": {
 		"role": ["anti_air"],
-		"attribute": ["skirmish"]
+		"attribute": ["skirmish"],
+		"thr_mod": 0.4
 	},
 
 	// adv vehicles - armavp
@@ -646,7 +647,8 @@
 	},
 	"cormist": {
 		"role": ["anti_air"],
-		"attribute": ["skirmish"]
+		"attribute": ["skirmish"],
+		"thr_mod": 0.4
 	},
 
 	// adv vehicles - coravp
