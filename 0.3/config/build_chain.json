@@ -175,7 +175,7 @@
 	"mex": {
 		"armmex": {
 //			"terra": true,
-			"energy": [20, true],
+			"energy": [20, true], //20 is meaningless in BAR - AI will force-build 1 solar near every mex till it reaches 20 energy income
 			"porc": true
 		},
 		"cormex": {

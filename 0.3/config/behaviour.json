@@ -157,35 +157,43 @@
 
  	"armalab": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "coralab": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "armavp": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "coravp": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "armaap": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "coraap": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "armshltx": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "corgant": {
         "role": ["static"],
-        "attribute": ["support"]
+        "attribute": ["support"],
+        "limit": 1
     },
     "armnanotc": {
         "role": ["support"]
