@@ -264,8 +264,9 @@
 		"pwr_mod": 2
 	},
 	"armrectr": {
-		"role": ["support", "mine"],
-		"attribute": ["siege"]
+		"role": ["raider", "mine"],
+		"attribute": ["siege", "mine", "scout"],
+		"pwr_mod": 2
 	},
 	"armrock": {
 		"role": ["skirmish"]
@@ -546,8 +547,9 @@
 		"pwr_mod": 2
 	},
 	"cornecro": {
-		"role": ["support", "mine"],
-		"attribute": ["siege"]
+		"role": ["raider", "mine"],
+		"attribute": ["siege", "mine", "scout"],
+		"pwr_mod": 2
 	},
 	"corstorm": {
 		"role": ["skirmish"]

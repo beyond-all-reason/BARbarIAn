@@ -13,11 +13,11 @@
 				"factory": {
 					"armlab": [
 						// [<weight>, [<role>, <role>, ...]]
-						[0.9, ["raider", "raider", "builder", "raider", "raider", "builder", "raider", "raider", "raider", "raider"]],
-						[0.1, ["raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider"]]
+						[0.9, ["raider", "raider", "builder", "raider", "raider", "builder", "raider", "raider", "support", "raider"]],
+						[0.1, ["raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "support"]]
 					]
 				},
-				"default": ["raider", "raider", "builder", "raider", "raider"]
+				"default": ["raider", "raider", "builder", "raider", "raider", "support"]
 			},
 
 			// Morph params
@@ -43,11 +43,11 @@
 				"factory": {
 					"corlab": [
 						// [<weight>, [<role>, <role>, ...]]
-						[0.9, ["raider", "raider", "builder", "raider", "raider", "builder", "raider", "raider", "raider", "raider"]],
-						[0.1, ["raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "raider"]]
+						[0.9, ["raider", "raider", "builder", "raider", "raider", "builder", "raider", "raider", "support", "raider"]],
+						[0.1, ["raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "support"]]
 					]
 				},
-				"default": ["raider", "raider", "builder", "raider", "raider"]
+				"default": ["raider", "raider", "builder", "raider", "raider", "support"]
 			},
 
 			// Morph params
