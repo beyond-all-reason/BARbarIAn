@@ -32,7 +32,7 @@
 			"arm":  ["armmercury",  "armemp",  "armbrtha", "armvulc", "armamd", "armsilo", "armgate"],
 			"core": ["corscreamer", "cortron", "corint",   "corbuzz", "corfmd", "corsilo", "corgate"]
 		},
-		"weight":   [ 0.20,          0.09,      0.40,       0.01,      0.07,     0.13,       0.3],
+		"weight":   [ 0.20,          0.09,      0.30,       0.01,      0.17,     0.13,       0.3],
 
 		"condition": [30, 5000]  // [<Minimum income>, <maximum seconds to build>]
 	},
