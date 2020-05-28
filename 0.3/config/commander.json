@@ -16,6 +16,11 @@
 						[0.9, ["raider", "scout", "builder", "raider", "builder", "raider", "raider", "raider", "builder", "support", "raider"]],
 						[0.1, ["raider", "builder", "riot", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "support"]]
 					]
+					"armalab": [
+						// [<weight>, [<role>, <role>, ...]]
+						[0.9, ["builder", "support", "assault", "raider", "raider", "raider", "builder", "support", "raider"]],
+						[0.1, ["builder", "support", "raider", "riot", "builder", "raider", "raider", "raider", "raider", "builder", "raider", "support"]]
+					]
 				},
 				"default": ["raider", "raider", "builder", "raider", "builder", "raider", "support", "raider"]
 			},

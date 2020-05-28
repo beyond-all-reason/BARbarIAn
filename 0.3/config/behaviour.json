@@ -312,7 +312,7 @@
 		"attribute": ["siege"]
 	},
 	"armvader": {
-		"role": ["assault"],
+		"role": ["raider"],
 		"attribute": ["melee"],
 		"retreat": 0,
 	},
@@ -326,7 +326,7 @@
 		"role": ["support"]
 	},
 	"armsptk": {
-		"role": ["raid"],
+		"role": ["raider"],
 		"attribute": ["siege"]
 	},
 	"armsnipe": {
@@ -335,22 +335,19 @@
 
 	// T3 kbot - armshltx
 	"armmar": {
-		"role": ["raider", "heavy"],
-		"attribute": ["super"]
+		"role": ["raider", "heavy"]
 	},
 	"armraz": {
 		"role": ["skirmish", "heavy"],
-		"attribute": ["super"],
-		"pwr_mod": 2.0
+		"pwr_mod": 2.5
 	},
 	"armvang": {
 		"role": ["artillery", "heavy"],
-		"attribute": ["super"],
 		"pwr_mod": 2.0
 	},
 	"armbanth": {
 		"role": ["assault", "heavy"],
-		"attribute": ["super", "melee"],
+		"attribute": ["melee"],
 		"pwr_mod": 2.0
 	},
 
@@ -603,27 +600,24 @@
 
 	// T3 kbot - corgant
 	"corshiva": {
-		"role": ["riot", "heavy"],
-		"attribute": ["super"]
+		"role": ["riot", "heavy"]
 	},
 	"corkarg": {
-		"role": ["raider", "heavy"],
-		"attribute": ["super"]
+		"role": ["raider", "heavy"]
 	},
 	"corcat": {
 		"role": ["artillery", "heavy"],
-		"attribute": ["super"],
 		"pwr_mod": 2.0
 	},
 	"corkrog": {
 		"role": ["assault", "heavy"],
-		"attribute": ["super", "melee"],
-		"pwr_mod": 2.0
+		"attribute": ["melee"],
+		"pwr_mod": 2.2
 	},
 	"corjugg": {
 		"role": ["heavy"],
-		"attribute": ["super", "melee"],
-		"pwr_mod": 2.0
+		"attribute": ["melee"],
+		"pwr_mod": 2.5
 	},
 
 	// vehicles - corvp
