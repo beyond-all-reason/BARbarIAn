@@ -289,7 +289,7 @@
 	// adv kbot - armalab
 	"armack": {
 		"role": ["builder"],
-		"limit": 10
+		"limit": 4
 	},
 	"armfark": {
 		"role": ["support", "mine"]
@@ -394,7 +394,7 @@
 	// adv vehicles - armavp
 	"armacv": {
 		"role": ["builder"],
-		"limit": 10
+		"limit": 3
 	},
 	"armlatnk": {
 		"role": ["raider"]
@@ -443,7 +443,8 @@
 	// adv aircraft - armaap
 	"armaca": {
 		"role": ["builder", "air"],
-		"retreat": 0.6
+		"retreat": 0.6,
+		"limit": 2
 	},
 	"armawac": {
 		"role": ["scout", "air"]
@@ -562,7 +563,7 @@
 	// adv kbot - coralab
 	"corack": {
 		"role": ["builder"],
-		"limit": 10
+		"limit": 4
 	},
 	"corfast": {
 		"role": ["support", "mine"]
@@ -661,7 +662,7 @@
 	// adv vehicles - coravp
 	"coracv": {
 		"role": ["builder"],
-		"limit": 10
+		"limit": 3
 	},
 	"correap": {
 		"role": ["assault"]
@@ -774,7 +775,7 @@
 	"coraca": {
 		"role": ["builder", "air"],
 		"retreat": 0.6,
-		"limit": 10
+		"limit": 2
 	},
 	"corawac": {
 		"role": ["scout", "air"]
