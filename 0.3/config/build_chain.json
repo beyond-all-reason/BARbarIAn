@@ -105,6 +105,7 @@
 				[  // chain1
 					{"unit": "armmmkr", "category": "defence", "offset": [200, 200], "condition": "maybe"},
                    			{"unit": "armmmkr", "category": "defence", "offset": [200, -200], "condition": "maybe"},
+                    			{"unit": "armamd", "category": "defence", "offset": [120, -120]},
                     			{"unit": "armpb", "category": "defence", "offset": [-200, -200], "condition": "maybe"},
 					{"unit": "armpacko", "category": "defence", "offset": [-200, 200], "condition": "air"}
 				]
@@ -118,6 +119,8 @@
 					{"unit": "armmmkr", "category": "defence", "offset": [120, 150]},
 					{"unit": "armmmkr", "category": "defence", "offset": [150, 150]},
                     			{"unit": "armmmkr", "category": "defence", "offset": [120, -120]},
+					{"unit": "armamd", "category": "defence", "offset": [-120, -120]},
+                    			{"unit": "armanni", "category": "defence", "offset": [-180, -180], "condition": "maybe"},
                     			{"unit": "armpb", "category": "defence", "offset": [-80, -80], "condition": "maybe"},
 					{"unit": "armpacko", "category": "defence", "offset": [-80, 80], "condition": "air"}
 				]
@@ -158,6 +161,8 @@
 					{"unit": "cormmkr", "category": "defence", "offset": [150, 120]},
                     			{"unit": "cormmkr", "category": "defence", "offset": [120, 150]},
                     			{"unit": "cormmkr", "category": "defence", "offset": [150, 150]},
+                    			{"unit": "corfmd", "category": "defence", "offset": [180, -180]},
+                    			{"unit": "cordoom", "category": "defence", "offset": [-180, 180]},
                     			{"unit": "corvipe", "category": "defence", "offset": [-80, -80], "condition": "maybe"},
 					{"unit": "cormadsam", "category": "defence", "offset": [-80, 80], "condition": "air"}
 				]
