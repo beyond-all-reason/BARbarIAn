@@ -339,15 +339,17 @@
 	},
 	"armraz": {
 		"role": ["skirmish", "heavy"],
-		"attribute": ["super"]
+		"attribute": ["super"],
+		"pwr_mod": 2.0
 	},
 	"armvang": {
 		"role": ["artillery", "heavy"],
-		"attribute": ["super"]
+		"attribute": ["super"],
+		"pwr_mod": 2.0
 	},
 	"armbanth": {
 		"role": ["assault", "heavy"],
-		"attribute": ["super"],
+		"attribute": ["super", "melee"],
 		"pwr_mod": 2.0
 	},
 
@@ -423,7 +425,7 @@
 	"armca": {
 		"role": ["builder", "air"],
 		"retreat": 0.6,
-		"limit": 10
+		"limit": 25
 	},
 	"armpeep": {
 		"role": ["scout", "air"]
@@ -608,16 +610,17 @@
 	},
 	"corcat": {
 		"role": ["artillery", "heavy"],
-		"attribute": ["super"]
+		"attribute": ["super"],
+		"pwr_mod": 2.0
 	},
 	"corkrog": {
 		"role": ["assault", "heavy"],
-		"attribute": ["super"],
+		"attribute": ["super", "melee"],
 		"pwr_mod": 2.0
 	},
 	"corjugg": {
 		"role": ["heavy"],
-		"attribute": ["super"],
+		"attribute": ["super", "melee"],
 		"pwr_mod": 2.0
 	},
 
@@ -754,7 +757,7 @@
 	"corca": {
 		"role": ["builder", "air"],
 		"retreat": 0.6,
-		"limit": 10
+		"limit": 25
 	},
 	"corfink": {
 		"role": ["scout", "air"]
@@ -794,7 +797,7 @@
 	"corcrw": {
 		"role": ["heavy", "air"],
 		"attribute": ["anti_heavy"],
-		"retreat": 0.4
+		"retreat": 0.2
 	}
 }
 }
