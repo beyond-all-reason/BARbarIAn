@@ -365,7 +365,7 @@
 		"limit": 10
 	},
 	"armmlv": {
-		"role": ["support", "mine"]
+		"role": ["anti_heavy"]
 	},
 	"armfav": {
 		"role": ["scout"]
@@ -636,7 +636,7 @@
 		"limit": 10
 	},
 	"cormlv": {
-		"role": ["support", "mine"]
+		"role": ["anti_heavy"]
 	},
 	"corfav": {
 		"role": ["scout"]
