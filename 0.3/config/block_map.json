@@ -68,7 +68,7 @@
 		},
 		"mex": {
 			"type": ["rectangle", "mex"],
-			"size": [5, 5],
+			"size": [7, 7],
 			"ignore": ["all"]
 		},
 		"def_low": {
