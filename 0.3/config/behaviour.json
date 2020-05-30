@@ -533,6 +533,26 @@
 		"attribute": ["artillery"],
 		"retreat": 0.3
 	},
+	//ARM HOVERS
+
+	"armch": {
+		"role": ["builder"],
+		"limit": 10
+	},
+	"armsh": {
+		"role": ["scout"]
+	},
+	"armanac": {
+		"role": ["assault"]
+	},
+	"armmh": {
+		"role": ["artillery"]
+	},
+	"armah": {
+		"role": ["anti_air"],
+		"attribute": ["skirmish"],
+		"thr_mod": 0.4
+	},
 
 	// kbot - corlab
 	"corck": {
@@ -749,6 +769,30 @@
 		"attribute": ["artillery"],
 		"retreat": 0.3
 	},
+//CORE HOVERS
+
+	"corch": {
+		"role": ["builder"],
+		"limit": 10
+	},
+	"corsh": {
+		"role": ["scout"]
+	},
+	"corsnap": {
+		"role": ["assault"]
+	},
+	"cormh": {
+		"role": ["artillery"]
+	},
+	"corah": {
+		"role": ["anti_air"],
+		"attribute": ["skirmish"],
+		"thr_mod": 0.4
+	},
+	"corhal": {
+		"role": ["assault"]
+	},
+
 
 	// aircraft - corap
 	"corca": {
