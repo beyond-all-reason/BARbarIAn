@@ -3,7 +3,7 @@
 {
 // Factory selection parameters
 "select": {
-	"air_map": 80,
+	"air_map": 100,
 	"offset": [-20, 20],
 	// Speed factor: 8x8 ~ 0%, 24x24 ~ 40%
 	"speed": [0, 40],
