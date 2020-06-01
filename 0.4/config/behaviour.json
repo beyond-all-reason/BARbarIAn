@@ -2,10 +2,10 @@
 {
 "quota": {
 	"scout": 1,  // max scout units out of raiders
-	"raid": [3.0, 16.0],  // [<min>, <avg>] power of raider squad
+	"raid": [3.0, 42.0],  // [<min>, <avg>] power of raider squad
 	"attack": 60.0,  // min power of attack group
 	"thr_mod": {
-		"attack": [0.15, 0.25],  // [<min>, <max>] enemy threat modifier for target selection of attack task
+		"attack": [0.4, 0.5],  // [<min>, <max>] enemy threat modifier for target selection of attack task
 		"defence": [0.95, 0.95],  // [<min>, <max>] enemy threat modifier for group size calculation of defence task
 		"mobile": 1.05,  // initial modifier for power of attack group based on mobile enemy threat
 		"static": 1.2,  // initial modifier for power of attack group based on static enemy threat
@@ -41,7 +41,7 @@
 		"role": ["builder"],
 		"attribute": ["commander"]
 	},
-	
+
 	// ARM defenses
 	"armllt": {
 		"role": ["static"],
@@ -261,7 +261,7 @@
 	"armpw": {
 		"role": ["raider"],
 		"attribute": ["scout"],
-		"pwr_mod": 2
+		"pwr_mod": 1.5
 	},
 	"armrectr": {
 		"role": ["raider", "mine"],
@@ -320,7 +320,9 @@
 		"role": ["anti_air"]
 	},
 	"armmark": {
-		"role": ["assault"]
+		"role": ["assault"],
+		"attribute": ["support"],
+		"limit": 1
 	},
 	"armspid": {
 		"role": ["support"]
@@ -416,7 +418,9 @@
 		"role": ["anti_air"]
 	},
 	"armseer": {
-		"role": ["support"]
+		"role": ["assault"],
+		"attribute": ["support"],
+		"limit": 1
 	},
 
 	// aircraft - armap
@@ -561,8 +565,7 @@
 	},
 	"corak": {
 		"role": ["raider"],
-		"attribute": ["scout"],
-		"pwr_mod": 2
+		"attribute": ["scout"]
 	},
 	"cornecro": {
 		"role": ["raider", "mine"],
@@ -617,6 +620,11 @@
 		"role": ["assault"],
 		"attribute": ["melee"],
 		"retreat": 0,
+	},
+	"corvoyr": {
+		"role": ["assault"],
+		"attribute": ["support"],
+		"limit": 1
 	},
 
 	// T3 kbot - corgant
@@ -707,6 +715,7 @@
 	},
 	"corvrad": {
 		"role": ["assault"],
+		"attribute": ["support"],
 		"limit": 1
 	},
 
