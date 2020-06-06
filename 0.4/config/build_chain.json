@@ -95,6 +95,7 @@
 				[  // chain1
 					{"unit": "armmmkr", "category": "defence", "offset": [120, 120]},
                     			{"unit": "armmmkr", "category": "defence", "offset": [120, -120]},
+					{"unit": "armamd", "category": "defence", "offset": [-120, -120], "condition": "maybe"},
                     			{"unit": "armpb", "category": "defence", "offset": [-80, -80], "condition": "maybe"},
 					{"unit": "armpacko", "category": "defence", "offset": [-80, 80], "condition": "air"}
 				]
@@ -147,7 +148,8 @@
 			"hub": [
 				[  // chain1
 					{"unit": "cormmkr", "category": "defence", "offset": [120, 120]},
-                    			{"unit": "cormmkr", "category": "defence", "offset": [120, -120]},
+                    			{"unit": "cormmkr", "category": "defence", "offset": [120, -120]},					
+					{"unit": "corfmd", "category": "defence", "offset": [-120, -120], "condition": "maybe"},
                     			{"unit": "corvipe", "category": "defence", "offset": [-80, -80], "condition": "maybe"},
 					{"unit": "cormadsam", "category": "defence", "offset": [-80, 80], "condition": "air"}
 				]
