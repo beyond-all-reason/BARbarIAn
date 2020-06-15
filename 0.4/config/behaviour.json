@@ -57,7 +57,8 @@
 	},
 	"armguard": {
 		"role": ["static"],
-		"attribute": ["artillery"]
+		"attribute": ["artillery"],
+		"thr_mod": 0.3
 	},
 	"armclaw": {
 		"role": ["static"]
@@ -116,7 +117,8 @@
 	},
 	"corpun": {
 		"role": ["static"],
-		"attribute": ["artillery"]
+		"attribute": ["artillery"],
+		"thr_mod": 0.3
 	},
 	"corrl": {
 		"role": ["anti_air"]
