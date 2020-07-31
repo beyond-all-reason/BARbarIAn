@@ -16,7 +16,7 @@ BARbarIAn works best with SpringLobby, so please get this if you don't already h
  
 1. First join an online battleroom to automatically download the latest engine-version.
 2. Check which version this is while downloading or go to your spring install folder (Windows default is DRIVE:/User.../Documents/My Games/Spring/engine/)
-3. You'll find your latest engine version with the last 4 digits (f.e. 104.0.1-1429-gffcc8d2 maintenance)
+3. You'll find your latest engine version with the last 4 digits (f.e. 104.0.1-1551-g55f31b1 maintenance)
 4. You need to download the 64-bit engine of this same version from https://springrts.com/dl/buildbot/default/maintenance/
 5. Get the win or linux 64 bit version - usually the ...64-minimal-portable.7z is the best/easiest way (you need a unzipper/7z programm to unpack it)
 6. Unpack this 64-bit file in a separate folder, next to the 32-bit version in Spring/engine/
