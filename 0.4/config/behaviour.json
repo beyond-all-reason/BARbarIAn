@@ -213,7 +213,7 @@
     },
 
 
-	// kbot - armlab
+	// bot - armlab
 	"armck": {
 		// "role": [<main>, <enemy>, <enemy>, ...]
 		// <main> is the role to make desicions of when to build it and what task to assign
@@ -288,7 +288,7 @@
 		"role": ["scout"]
 	},
 
-	// adv kbot - armalab
+	// adv bot - armalab
 	"armack": {
 		"role": ["builder"],
 		"limit": 4
@@ -337,7 +337,7 @@
 		"role": ["anti_heavy"]
 	},
 
-	// T3 kbot - armshltx
+	// T3 bot - armshltx
 	"armmar": {
 		"role": ["raider", "heavy"]
 	},
@@ -560,7 +560,7 @@
 		"thr_mod": 0.4
 	},
 
-	// kbot - corlab
+	// bot - corlab
 	"corck": {
 		"role": ["builder"],
 		"limit": 10
@@ -585,7 +585,7 @@
 		"limit": 30
 	},
 
-	// adv kbot - coralab
+	// adv bot - coralab
 	"corack": {
 		"role": ["builder"],
 		"limit": 4
@@ -629,7 +629,7 @@
 		"limit": 1
 	},
 
-	// T3 kbot - corgant
+	// T3 bot - corgant
 	"corshiva": {
 		"role": ["riot", "heavy"]
 	},
