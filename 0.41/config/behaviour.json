@@ -42,7 +42,7 @@
 		"attribute": ["commander"]
 	},
 
-	// ARM defenses
+	// ARMADA defenses
 	"armllt": {
 		"role": ["static"],
 		"thr_mod": 0.5
@@ -99,7 +99,7 @@
 		"pwr_mod": 1.5
 	},
 
-	// CORE defenses
+	// CORTEX defenses
 	"corllt": {
 		"role": ["static"],
 		"thr_mod": 0.5
@@ -539,7 +539,7 @@
 		"attribute": ["artillery"],
 		"retreat": 0.3
 	},
-	//ARM HOVERS
+	// ARMADA HOVERS
 
 	"armch": {
 		"role": ["builder"],
@@ -781,7 +781,7 @@
 		"attribute": ["artillery"],
 		"retreat": 0.3
 	},
-//CORE HOVERS
+// CORTEX HOVERS
 
 	"corch": {
 		"role": ["builder"],

@@ -4,7 +4,7 @@
 	"energy": {
 		// If land area >= 40% of the map then "land" config used, "water" otherwise
 		"side": {
-			"arm": {
+			"armada": {
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
@@ -21,7 +21,7 @@
 					"armuwfus": [1, 2]
 				}
 			},
-			"core": {
+			"cortex": {
 				"land": {
 					// "<energy_def>": [<lower limit>, <upper limit>]
 					// limit = random(<lower limit>..<upper limit>)
@@ -48,8 +48,8 @@
 	},
 
 	"metal": {
-		"arm": ["armmex", "armmoho"],  // [T1_mex, T2_mex]
-		"core": ["cormex", "cormoho"]  // [T1_mex, T2_mex]
+		"armada": ["armmex", "armmoho"],  // [T1_mex, T2_mex]
+		"cortex": ["cormex", "cormoho"]  // [T1_mex, T2_mex]
 	},
 	"auto_mex": 1,  // number of T2 builders for each mobile type forced to auto-mex only
 
@@ -76,14 +76,14 @@
 
 	//"terra": "armsy",
 	"airpad": {
-		"arm": "armasp",
-		"core": "corasp"
+		"armada": "armasp",
+		"cortex": "corasp"
 	},
 
 	// Unknown UnitDef replacer
 	"default": {
-		"arm": "armwin",
-		"core": "corwin"
+		"armada": "armwin",
+		"cortex": "corwin"
 	}
 }
 }
