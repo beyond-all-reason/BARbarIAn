@@ -5,7 +5,7 @@
 	//              0           1          2         3            4           5          6
 		"armada": ["armllt",   "armtl",   "armrl",  "armbeamer", "armhlt",   "armclaw", "armcir",
 	//              7           8          9         10           11          12         13
-				   "armpacko", "armpb",   "armatl", "armflak",   "armamb",   "armanni", "armguard"],
+				   "armferret", "armpb",   "armatl", "armflak",   "armamb",   "armanni", "armguard"],
 	//	
 	//              0           1          2         3            4           5          6
 		"cortex": ["corllt",   "cortl",   "corrl",  "corhllt",   "corhlt",   "cormaw",  "cormadsam",
@@ -97,7 +97,7 @@
 					{"unit": "armmmkr", "category": "defence", "offset": [120, -120]},
 					{"unit": "armamd", "category": "defence", "offset": [-120, -120], "condition": "maybe"},
 					{"unit": "armpb", "category": "defence", "offset": [-80, -80], "condition": "maybe"},
-					{"unit": "armpacko", "category": "defence", "offset": [-80, 80], "condition": "air"}
+					{"unit": "armferret", "category": "defence", "offset": [-80, 80], "condition": "air"}
 				]
 			]
 		},
@@ -108,7 +108,7 @@
 					{"unit": "armmmkr", "category": "defence", "offset": [200, -200], "condition": "maybe"},
 					{"unit": "armamd", "category": "defence", "offset": [120, -120]},
 					{"unit": "armpb", "category": "defence", "offset": [-200, -200], "condition": "maybe"},
-					{"unit": "armpacko", "category": "defence", "offset": [-200, 200], "condition": "air"}
+					{"unit": "armferret", "category": "defence", "offset": [-200, 200], "condition": "air"}
 				]
 			]
 		},
@@ -123,7 +123,7 @@
 					{"unit": "armamd", "category": "defence", "offset": [-120, -120]},
 					{"unit": "armanni", "category": "defence", "offset": [-180, -180], "condition": "maybe"},
 					{"unit": "armpb", "category": "defence", "offset": [-80, -80], "condition": "maybe"},
-					{"unit": "armpacko", "category": "defence", "offset": [-80, 80], "condition": "air"}
+					{"unit": "armferret", "category": "defence", "offset": [-80, 80], "condition": "air"}
 				]
 			]
 		},
