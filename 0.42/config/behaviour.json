@@ -658,7 +658,7 @@
 		"role": ["artillery", "heavy"],
 		"pwr_mod": 2.0
 	},
-	"corkrog": {
+	"corkorg": {
 		"role": ["assault", "heavy"],
 		"attribute": ["melee"],
 		"pwr_mod": 2.2

@@ -383,7 +383,7 @@
 
 		"income_tier": [100],
 
-		"unit":      ["corshiva", "corkarg", "corcat", "corkrog", "corjugg"],
+		"unit":      ["corshiva", "corkarg", "corcat", "corkorg", "corjugg"],
 
 		"land": {
 			"tier0": [ 0.15,       0.45,      0.25,     0.00,      0.00],
