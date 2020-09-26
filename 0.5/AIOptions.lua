@@ -67,11 +67,11 @@ local options = {
 		name    = 'Difficulty profile',
 		desc    = 'Difficulty or play-style of AI (see init.as).\nkey: profile',
 		type    = 'list',
-		def     = 'standart',
+		def     = 'default',
 		items   = {
 			{
-				key  = 'standart',
-				name = 'Standart',
+				key  = 'default',
+				name = 'Default',
 				desc = 'Default config.',
 			},
 			{
@@ -80,7 +80,7 @@ local options = {
 				desc = 'Lobotomized AI.',
 			},
 			{
-				key  = 'lamer',
+				key  = 'noob',
 				name = 'Lamer\'s AI',
 				desc = 'Lamer\'s default config.',
 			},
