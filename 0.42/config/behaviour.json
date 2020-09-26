@@ -357,7 +357,7 @@
 		"role": ["artillery", "heavy"],
 		"pwr_mod": 2.0
 	},
-	"armcyclops": {
+	"armbanth": {
 		"role": ["assault", "heavy"],
 		"attribute": ["melee"],
 		"pwr_mod": 2.0

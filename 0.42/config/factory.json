@@ -128,7 +128,7 @@
 
 		"income_tier": [100],
 
-		"unit":      ["armmar", "armraz", "armvang", "armcyclops"],
+		"unit":      ["armmar", "armraz", "armvang", "armbanth"],
 
 		"land": {
 			"tier0": [ 0.25,     0.50,     0.20,      0.05],
