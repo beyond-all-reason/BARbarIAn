@@ -360,6 +360,9 @@
 	"armsnipe": {
 		"role": ["anti_heavy"]
 	},
+	"armamph": {
+		"role": ["raider", "anti_air"]
+	},
 
 	// T3 bot - armshltx
 	"armmar": {
@@ -661,6 +664,9 @@
 		"role": ["assault"],
 		"attribute": ["support"],
 		"limit": 1
+	},
+	"coramph": {
+		"role": ["raider", "anti_air"]
 	},
 
 	// T3 bot - corgant
