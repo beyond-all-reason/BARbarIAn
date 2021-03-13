@@ -4,15 +4,15 @@ A native AI for BAR
 
 Install into the Spring Engine in the following location:
 
-`..your install path../Spring/Engine/[your latest engine version]/AI/Skirmish/BARbarIAn/[AI version]/`
+`..your install path../Spring/Engine/[your latest engine version]/AI/Skirmish/BARb/[AI version]/`
 
-***The folder should be `AI/Skirmish/BARbarIAn/0.xxx/`***
+***The folder should be `AI/Skirmish/BARb/0.xxx/`***
 
 It's case sensitive and must be named exactly like this ^
 
 When you play/use this engine, you are able to select this awesome native AI for BAR.
 
-For the uncompiled source code refer to https://github.com/rlcevg/CircuitAI/tree/barb3
+For the uncompiled source code refer to https://github.com/rlcevg/CircuitAI/tree/barbarian
 
 # Installation
 
